@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #252529;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* header {
+  border: 7px solid rosybrown;
+} */
+
+.container1 {
+  width: 100%;
+  /* border: 8px blue solid; */
+  background-color: rgb(65, 63, 63);
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  font-size: 16px;
+  padding: 15px;
+  gap: 35px;
+  display: flex;
+  color: white;
+}
+
+il {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* MY TUNES SECTION  */
+
+.intro {
+  /* border: 8px red solid; */
+  color: white;
+}
+
+.container2 {
+  /* border: 8px goldenrod solid; */
+  padding-top: 160px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  background-image: url(./showcase.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1400px 800px;
+  height: 90vh;
+}
+
+img {
+  width: 100%;
+}
+
+.text1 {
+  font-size: 70px;
+}
+
+h1 {
+  padding: 18px;
+  font-size: 25px;
+}
+
+p {
+  padding: 20px;
+  font-size: 1.8rem;
+  /* border: blueviolet 8px solid; */
+  width: 100%;
+  color: white;
+}
+
+/* MUSIC SECTION */
+
+.music {
+  /* border: 8px solid green; */
+  height: 60vh;
+}
+
+.logo {
+  /* border: 7px solid burlywood; */
+  padding: 10px;
+}
+
+i {
+  padding: 12px;
+}
+
+h2 {
+  /* border: 7px solid rosybrown; */
+  color: white;
+  font-size: 38px;
+  padding: 15px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 29px;
+  text-align: center;
+}
+
+.button {
+  padding: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  padding: 19px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(167, 10, 10);
+  color: white;
+}
+
+.btn:hover {
+  transition-duration: 0.1s;
+  background-color: rgb(187, 35, 35);
+}
+
+.mockup {
+  width: 100%;
+  /* border: 7px solid rosybrown; */
+  padding-left: 170px;
+  padding: 20px;
+}
+
+img {
+  /* border: 7px solid coral; */
+  width: 95%;
+}
+
+.box {
+  /* border: solid 8px blue; */
+  width: 97%;
+  text-align: center;
+  padding: 20px;
+}
+
+p2 {
+  padding: 20px;
+  /* border: 8px solid greenyellow; */
+  font-size: 16px;
+  color: white;
+}
+
+/* 
+SHOWCASE SECTION */
+
+.container3 {
+  background-color: white;
+  /* border: palevioletred 7px solid; */
+  width: 100%;
+  height: 260vh;
+}
+
+.text_box {
+  color: #333;
+  text-align: center;
+  /* border: 7px grey solid; */
+  padding: 20px;
+  font-size: 1.8rem;
+  height: 100vh;
+}
+
+h4 {
+  padding: 30px;
+  font-size: 29px;
+  text-align: center;
+  color: #333;
+}
+
+.btn2 {
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #103063;
+  color: white;
+  /* border: solid 7px green; */
+}
+
+.btn2:hover {
+  transition-duration: 0.1s;
+  background-color: rgb(58, 63, 126);
+}
+
+.btn_box {
+  padding: 30px;
+  /* border: solid 7px green; */
+}
+
+.png {
+  margin: 0 auto;
+}
+
+.image2 {
+  height: 130vh;
+  /* border: solid 7px green; */
+}
+.display {
+  /* border: solid 7px slateblue; */
+  max-width: 1480px;
+  height: 68vh;
+  margin: 0 auto;
+}
+
+.child {
+  /* border: 6px solid yellow; */
+  background-image: url(./section-bg.jpeg);
+  background-repeat: no-repeat;
+  /* background-size: 1400px 800px; */
+  height: 100%;
+  padding-top: 160px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.container4 {
+    /* border: 7px solid limegreen; */
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    /* max-width: 1180px; */
+}
+
+p4 {
+  padding-left: 20px;
+  padding-right: 40px;
+  justify-content: left;
+}
+
+.question {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 300px;
+}
+
+.btn3{
+  padding-right:600px;
+  padding-top: 30px;
+  cursor: pointer;
+
+}
+
+.redeem:hover {
+  transition-duration: 0.1s;
+  background-color: red;
+}
+
+.redeem {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color:rgb(187, 35, 35);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+
+.giftcards {
+    /* border: 7px solid gold; */
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.cards {
+    width:50% ;
+    
+}
+
+.giftcards p4 {
+    font-size: 15px;
+   display: block;
+  
+}
+
+.giftcards h4 {
+    font-size: 25px;
+    
+}
+
+footer {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+}
+
+/* .ending {
+  background-color: #252529;
+  width: 100%;
+  height: 100%;
+} */
+
+.lists {
+  color: white;
+}
